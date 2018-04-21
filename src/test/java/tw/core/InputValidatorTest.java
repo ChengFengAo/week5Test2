@@ -14,7 +14,7 @@ public class InputValidatorTest {
         Assert.assertTrue(inputObject.validate("2 4 5 7"));
         Assert.assertFalse(inputObject.validate(""));
         Assert.assertFalse(inputObject.validate("2 3 4 5 6"));
-        Assert.assertFalse(inputObject.validate("2，#，@"));
+       Assert.assertFalse(inputObject.validate("2,3,4,5"));
         Assert.assertFalse(inputObject.validate("2 3 3 5"));
         Assert.assertFalse(inputObject.validate("0 10 3 4"));
     }
