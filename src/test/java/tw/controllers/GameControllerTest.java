@@ -45,7 +45,7 @@ public class GameControllerTest {
         GameController gameController=new GameController(gameMock,gameView);
 
         gameController.play(inputCommandMock);
-        assertThat(out(),is(equalTo("Game Status: fail\r\n")));
+        assertThat(out(),is(equalTo("Game Status: fail\n")));
     }
 
 }
