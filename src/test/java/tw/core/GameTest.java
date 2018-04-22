@@ -1,4 +1,3 @@
-/*
 package tw.core;
 
 import org.junit.Before;
@@ -15,10 +14,10 @@ import java.util.List;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
-*/
+
 /**
  * 在GameTest文件中完成Game中对应的单元测试
- *//*
+ */
 
 
 
@@ -69,4 +68,4 @@ public class GameTest {
 
 }
 
-*/
+
